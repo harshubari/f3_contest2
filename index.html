@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Picture Of Day</title>
 </head>
-
 <body>
+    <div class="picturebox" id="picturebox">
+        <h1 id="title">NASA Picture Of The Day</h1>
+        <img id="img" src="" alt="no-img">
+        <h1 id="pname"> </h1>
+        <h3 id="desc"></h3>
+    </div>
+    <section>
+        <h2>Search for a Picture of the Day</h2>
+        <form class="form" id="form">
+            <label for="inputdate">Select a date</label>
+            <input type="date" name="date" id="inputdate">
+            <button type="submit" id="searchBtn">Search</button>
+        </form>
+        <div id="previous">
+            <h3>Previous Searches</h3>
 
+        </div>
+    </section>
     <script src="script.js"></script>
 </body>
-
 </html>
